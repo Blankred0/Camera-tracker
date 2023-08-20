@@ -1,5 +1,7 @@
 # Camera Tracker
 
+Requirements : Python3 and open ssh
+
 This is a PHP-based camera tracker that can be hosted locally using Serveo. To use it, follow these steps:
 
 1. Clone the repository:
@@ -13,6 +15,8 @@ This is a PHP-based camera tracker that can be hosted locally using Serveo. To u
    $ python3 bot.py
 
    $ serveo
+
+   (For a subdomain of your choice you need to run ssh-keygen)
 
 5. Copy the generated link and share it with the intended user. To prevent the website from sleeping in the next 5 minutes, run the following command in a separate window:
 
